@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Landing Page Template</title>
+    <link rel="shortcut icon" href="./imgs/logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+
+    <!-- JS -->
+    <script src="./js/script.js" defer></script>
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="div">
+            <a href="./index.html"><img src="./imgs/logo.png" class="logo" alt="real estate logo"></a>
+        </div>
+
+        <div class="div">
+            <a href="tel: 123-456-7890"><i class="ri-phone-line"></i> +123 456 7890</a>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero-section">
+        <div class="div">
+            <h1>Real Estate <br> <span>Properties</span></h1>
+
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore qui corporis quibusdam quia, amet minima aliquam molestiae ducimus nostrum, porro laboriosam culpa suscipit nemo nulla odit ullam consectetur harum exercitationem.</p>
+
+            <a href="#contact" class="contact-btn"><i class="ri-mail-line"></i> Contact</a>
+            <a href="#more-info"><i class="ri-arrow-down-circle-line"></i> More Info</a>
+        </div>
+
+        <div class="div">
+            <img src="./imgs/properties/house-exterior.jpeg" alt="real estate exterior">
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="features-section">
+        <h2>INTERIOR</h2>
+
+        <div class="imgs">
+            <div class="div">
+                <img src="./imgs/properties/house-interior1.jpeg" alt="house interior">
+                <img src="./imgs/properties/house-interior2.jpg" alt="house interior">
+                <img src="./imgs/properties/house-interior3.jpg" alt="house interior">
+            </div>
+            <div class="div">
+                <img src="./imgs/properties/house-interior4.jpg" alt="house interior">
+                <img src="./imgs/properties/house-interior5.jpg" alt="house interior">
+            </div>
+        </div>
+
+        <div class="description" id="more-info">
+            <h3>Property Description</h3>
+            <p>This item is connected to a text field in your content collection. Double click what you want to edit and then select "Change Content" to add your own content to the collection. Want to view and manage all your collections? Click the Content Manager icon on the add panel to your left. In the Content Manager, you can update items, add new fields, create dynamic pages and more.</p>
+        </div>
+
+        <div class="icons">
+            <div class="div">
+                <img src="./imgs/icons/bedroom.png" alt="bedroom">
+                <p>Bedrooms</p>
+                <p>4</p>
+            </div>
+
+            <div class="div">
+                <img src="./imgs/icons/bathtub.png" alt="bathtub">
+                <p>Bathrooms</p>
+                <p>3</p>
+            </div>
+
+            <div class="div">
+                <img src="./imgs/icons/kitchen.png" alt="kitchen">
+                <p>Kitchen</p>
+                <p>2</p>
+            </div>
+
+            <div class="div">
+                <img src="./imgs/icons/garage.png" alt="garage">
+                <p>Garage</p>
+                <p>1</p>
+            </div>
+
+            <div class="div">
+                <img src="./imgs/icons/livingroom.png" alt="living room">
+                <p>Living room</p>
+                <p>1</p>
+            </div>
+        </div>
+
+        <div class="list">
+            <ul>
+                <li>1,234 Sq Ft</li>
+                <li>Extensively Remodelled Top-to-Bottom</li>
+                <li>Landscaped Backyard Garden</li>
+                <li>1-Car Garage Parking Plus Storage</li>
+                <li>Safe Security System</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- LOCATION -->
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29399832.731074642!2d127.52281400201716!3d-25.907407322500045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2b2bfd076787c5df%3A0x538267a1955b1352!2sAustralia!5e0!3m2!1sen!2sph!4v1720401705304!5m2!1sen!2sph" width="2500" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <!-- CONTACT FORM -->
+        <section class="contact-form">
+                <h2>CONTACT <span>US NOW!</span></h2>
+            <div class="div">
+                <form action="https://formspree.io/f/mpzvolve" method="post">
+                    <input type="text" name="name" placeholder="Name*" autocomplete="off" required><br>
+                    <input type="email" name="email" placeholder="Email*" autocomplete="off" required><br>
+                    <input type="tel" name="number" placeholder="Phone #*" maxlength="11" autocomplete="off" required><br>
+                    <textarea name="message" placeholder="Message us for inquiry..." required></textarea><br>
+                    <button type="submit">Send now</button>
+                </form>
+            </div>
+        </section>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="newsletter">
+            <h3>NEWSLETTER</h3>
+            <p>To keep updated, subscribe to our newsletter.</p>
+            <form action="https://formspree.io/f/mpzvolve" method="post">
+                <input type="email" name="email" placeholder="Email*" autocomplete="off" required><br>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+
+        <div class="copyright">
+            <p>&copy; 2024 Real Estate Template. Created by Zypherr with <span>♥</span>. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html> 
